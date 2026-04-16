@@ -1,0 +1,72 @@
+/* Fundo da página */
+body {
+    background-color: #2F4F4F;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Centralização */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+input, select, button {
+    padding: 8px;
+    margin: 5px;
+    width: 90%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Cores por prioridade */
+.alta {
+    background-color: #FF6347;
+}
+
+.media {
+    background-color: #DAA520;
+}
+
+.baixa {
+    background-color: #228B22;
+}
+
+.sem {
+    background-color: #F0FFFF;
+}
+
+/* Tarefa concluída */
+.concluida {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+button.concluir {
+    width: auto;
+    padding: 5px 10px;
+    margin-left: 10px;
+}

@@ -1,5 +1,33 @@
-<Html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-  <div> Hello Word</div>
+
+<div class="container">
+    <h1>Lista de Tarefas</h1>
+
+    <!-- Campo de entrada -->
+    <input type="text" id="tarefaInput" placeholder="Digite a descrição da tarefa">
+
+    <!-- Seletor de prioridade -->
+    <select id="prioridadeSelect">
+        <option value="sem">Sem prioridade</option>
+        <option value="alta">Alta</option>
+        <option value="media">Média</option>
+        <option value="baixa">Baixa</option>
+    </select>
+
+    <!-- Botão para adicionar tarefa -->
+    <button onclick="adicionarTarefa()">Adicionar Tarefa</button>
+
+    <!-- Lista de exibição -->
+    <ul id="listaTarefas"></ul>
+</div>
+
+<script src="script.js"></script>
 </body>
-</Html>
+</html>
